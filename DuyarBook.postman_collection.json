@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "e2ce1fd4-2cf9-441b-817f-15a25cf4232f",
+		"name": "DuyarBook",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "41993553"
+	},
+	"item": [
+		{
+			"name": "BookSave",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Kasim Duyar27\",\r\n    \"description\": \"ksmduyar\",\r\n    \"author\": \"Kasim\",\r\n    \"publishdate\": \"22.22.2022\",\r\n    \"price\": 5000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8090/dyrbook/booksave"
+			},
+			"response": []
+		},
+		{
+			"name": "List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/dyrbook/booklist?page=0&size=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"dyrbook",
+						"booklist"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8090/dyrbook/bdelete/22"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/dyrbook/booksearch?title=a&page=1&size=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"dyrbook",
+						"booksearch"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "a"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllBookSave",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"title\": \"Clean Code\",\r\n    \"description\": \"Yazılımda temizlik ve düzen üzerine.\",\r\n    \"author\": \"Robert C. Martin\",\r\n    \"publishdate\": \"2008-08-01\",\r\n    \"price\": 45.99\r\n  },\r\n  {\r\n    \"title\": \"Effective Java\",\r\n    \"description\": \"Java için en iyi uygulamalar.\",\r\n    \"author\": \"Joshua Bloch\",\r\n    \"publishdate\": \"2018-01-06\",\r\n    \"price\": 52.50\r\n  },\r\n  {\r\n    \"title\": \"Spring in Action\",\r\n    \"description\": \"Spring çerçevesine kapsamlı bir giriş.\",\r\n    \"author\": \"Craig Walls\",\r\n    \"publishdate\": \"2018-11-05\",\r\n    \"price\": 39.99\r\n  },\r\n  {\r\n    \"title\": \"Java Concurrency in Practice\",\r\n    \"description\": \"Java ile çok iş parçacığı yönetimi.\",\r\n    \"author\": \"Brian Goetz\",\r\n    \"publishdate\": \"2006-05-09\",\r\n    \"price\": 47.95\r\n  },\r\n  {\r\n    \"title\": \"The Pragmatic Programmer\",\r\n    \"description\": \"Yazılımcılar için temel rehber.\",\r\n    \"author\": \"Andy Hunt, Dave Thomas\",\r\n    \"publishdate\": \"2019-09-13\",\r\n    \"price\": 44.00\r\n  },\r\n  {\r\n    \"title\": \"Head First Design Patterns\",\r\n    \"description\": \"Tasarım desenlerine eğlenceli yaklaşım.\",\r\n    \"author\": \"Eric Freeman\",\r\n    \"publishdate\": \"2020-12-04\",\r\n    \"price\": 49.99\r\n  },\r\n  {\r\n    \"title\": \"Introduction to Algorithms\",\r\n    \"description\": \"Algoritmalara giriş kitabı.\",\r\n    \"author\": \"Thomas H. Cormen\",\r\n    \"publishdate\": \"2009-07-31\",\r\n    \"price\": 89.75\r\n  },\r\n  {\r\n    \"title\": \"Refactoring\",\r\n    \"description\": \"Kodunuzu iyileştirme yolları.\",\r\n    \"author\": \"Martin Fowler\",\r\n    \"publishdate\": \"2018-11-20\",\r\n    \"price\": 55.60\r\n  },\r\n  {\r\n    \"title\": \"Domain-Driven Design\",\r\n    \"description\": \"Karmaşık sistemlerin tasarımı.\",\r\n    \"author\": \"Eric Evans\",\r\n    \"publishdate\": \"2003-08-30\",\r\n    \"price\": 66.00\r\n  },\r\n  {\r\n    \"title\": \"Test-Driven Development\",\r\n    \"description\": \"Test ile geliştirme yaklaşımı.\",\r\n    \"author\": \"Kent Beck\",\r\n    \"publishdate\": \"2002-11-18\",\r\n    \"price\": 38.00\r\n  },\r\n  {\r\n    \"title\": \"Design Patterns\",\r\n    \"description\": \"Yeniden kullanılabilir tasarımlar.\",\r\n    \"author\": \"Erich Gamma et al.\",\r\n    \"publishdate\": \"1994-10-21\",\r\n    \"price\": 54.99\r\n  },\r\n  {\r\n    \"title\": \"You Don’t Know JS\",\r\n    \"description\": \"JavaScript’e derinlemesine bakış.\",\r\n    \"author\": \"Kyle Simpson\",\r\n    \"publishdate\": \"2015-01-01\",\r\n    \"price\": 29.99\r\n  },\r\n  {\r\n    \"title\": \"Kotlin in Action\",\r\n    \"description\": \"Kotlin diliyle uygulama geliştirme.\",\r\n    \"author\": \"Dmitry Jemerov\",\r\n    \"publishdate\": \"2017-02-19\",\r\n    \"price\": 42.99\r\n  },\r\n  {\r\n    \"title\": \"JavaScript: The Good Parts\",\r\n    \"description\": \"JS’in en iyi yönleri.\",\r\n    \"author\": \"Douglas Crockford\",\r\n    \"publishdate\": \"2008-05-01\",\r\n    \"price\": 35.00\r\n  },\r\n  {\r\n    \"title\": \"Pro Git\",\r\n    \"description\": \"Git üzerine kapsamlı rehber.\",\r\n    \"author\": \"Scott Chacon\",\r\n    \"publishdate\": \"2014-11-18\",\r\n    \"price\": 1.00\r\n  },\r\n  {\r\n    \"title\": \"Cracking the Coding Interview\",\r\n    \"description\": \"Mülakat soruları ve çözümleri.\",\r\n    \"author\": \"Gayle Laakmann McDowell\",\r\n    \"publishdate\": \"2015-07-01\",\r\n    \"price\": 41.95\r\n  },\r\n  {\r\n    \"title\": \"Algorithms\",\r\n    \"description\": \"Algoritmaların temelleri.\",\r\n    \"author\": \"Robert Sedgewick\",\r\n    \"publishdate\": \"2011-03-19\",\r\n    \"price\": 49.99\r\n  },\r\n  {\r\n    \"title\": \"The Clean Coder\",\r\n    \"description\": \"Profesyonel yazılımcı davranışları.\",\r\n    \"author\": \"Robert C. Martin\",\r\n    \"publishdate\": \"2011-05-13\",\r\n    \"price\": 40.00\r\n  },\r\n  {\r\n    \"title\": \"Soft Skills\",\r\n    \"description\": \"Yazılımcılar için yaşam rehberi.\",\r\n    \"author\": \"John Sonmez\",\r\n    \"publishdate\": \"2014-12-28\",\r\n    \"price\": 35.50\r\n  },\r\n  {\r\n    \"title\": \"Continuous Delivery\",\r\n    \"description\": \"Sürekli teslimat süreçleri.\",\r\n    \"author\": \"Jez Humble\",\r\n    \"publishdate\": \"2010-07-27\",\r\n    \"price\": 48.95\r\n  }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8090/dyrbook/allbooksave"
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Kasım Duyar\",\r\n    \"email\": \"kasim@mail.com\",\r\n    \"password\": \"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8090/customer/register"
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"kasim@mail.com\",\r\n    \"password\": \"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8090/customer/login"
+			},
+			"response": []
+		}
+	]
+}
