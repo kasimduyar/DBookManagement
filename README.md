@@ -63,6 +63,19 @@
 <img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/AraYap.png" width="600"/>
 </p>
 
+| 🗑️  | KİTAP SİLMEK  |
+| ------------ | ------------ |
+| BOOK DELETE  | Fotoğrafdaki yöntemi izleyerek istediğiniz kitabı id'sine göre silebilirsiniz ! |
+<p>
+<img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/sil.png" width="600"/>
+</p>
+
+| ➕➕  | ÇOKLU KİTAP EKLEME  |
+| ------------ | ------------ |
+| BOOK DELETE  | Fotoğrafdaki yöntemi izleyerek birden fazla kitaplarınızı aynı anda ekleyebilirsiniz ! |
+<p>
+<img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/toplukay%C4%B1r.png"/>
+</p>
 
 
 
