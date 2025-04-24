@@ -18,3 +18,9 @@
 - **Validaitons**
 - **Maven**
 - **Postman**
+
+- ## 🔧 KULLANIM
+
+   | GİRİŞSİZ KAYIT HATASI  |
+| ------------ | ------------ |
+| HATA  | Giriş yapılmadan kitap eklenilicek olursa uygulamanın vericeği hata  |
