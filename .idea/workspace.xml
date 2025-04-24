@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f47eca89-417b-4885-b0a8-018444aff9c3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.intellij.jpb.JpaRepository" />
+        <option value="com.intellij.jpb.NewClass" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vmmv968SOmDY0hGEy2ErPJTofP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DuyarBookApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\DuyarBook" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DuyarBookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="DuyarBook" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.works.DuyarBookApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f47eca89-417b-4885-b0a8-018444aff9c3" name="Changes" comment="" />
+      <created>1744758852911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744758852911</updated>
+      <workItem from="1744758853964" duration="53000" />
+      <workItem from="1744758932219" duration="98000" />
+      <workItem from="1744759044374" duration="7000" />
+      <workItem from="1744759079293" duration="23000" />
+      <workItem from="1744759110786" duration="32000" />
+      <workItem from="1744759153812" duration="419000" />
+      <workItem from="1744759590198" duration="63000" />
+      <workItem from="1744759670814" duration="11000" />
+      <workItem from="1744759706399" duration="1249000" />
+      <workItem from="1744761098473" duration="67000" />
+      <workItem from="1744761211367" duration="57000" />
+      <workItem from="1744761348567" duration="184000" />
+      <workItem from="1744761606363" duration="299000" />
+      <workItem from="1744761998914" duration="100000" />
+      <workItem from="1744762123384" duration="150000" />
+      <workItem from="1744762329174" duration="4000" />
+      <workItem from="1744811499309" duration="11000" />
+      <workItem from="1745340050633" duration="534000" />
+      <workItem from="1745340624641" duration="20000" />
+      <workItem from="1745340663385" duration="11000" />
+      <workItem from="1745340681966" duration="25000" />
+      <workItem from="1745340831590" duration="12000" />
+      <workItem from="1745340900829" duration="46000" />
+      <workItem from="1745340964145" duration="1349000" />
+      <workItem from="1745342320191" duration="1051000" />
+      <workItem from="1745355743836" duration="178000" />
+      <workItem from="1745355971752" duration="40000" />
+      <workItem from="1745356031513" duration="86000" />
+      <workItem from="1745356135855" duration="63000" />
+      <workItem from="1745356210966" duration="43000" />
+      <workItem from="1745356260111" duration="1606000" />
+      <workItem from="1745372838748" duration="1747000" />
+      <workItem from="1745404559936" duration="41000" />
+      <workItem from="1745404619081" duration="2760000" />
+      <workItem from="1745407444060" duration="51000" />
+      <workItem from="1745436064644" duration="5814000" />
+      <workItem from="1745498438646" duration="5612000" />
+      <workItem from="1745512020328" duration="1749000" />
+      <workItem from="1745513956069" duration="324000" />
+      <workItem from="1745514288984" duration="18000" />
+      <workItem from="1745514310982" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
