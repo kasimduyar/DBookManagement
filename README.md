@@ -1,6 +1,6 @@
 # 📚 DuyarBook - Kitap Yönetim Sistemi
 
-**DuyarBook**, kullanıcıların kendi kitaplarını ekleyebildiği, listeleyebildiği, güncelleyebildiği ve silebildiği bir kitap yönetim sistemidir. Giriş yapmayan kullanıcılar sisteme erişemez; her kullanıcı yalnızca kendi kitaplarını yönetebilir.
+**DuyarBook**, kullanıcıların kendi kitaplarını ekleyebildiği, listeleyebildiği, arama yapabildiği ve silebildiği bir kitap yönetim sistemidir. Giriş yapmayan kullanıcılar sisteme erişemez; her kullanıcı yalnızca kendi kitaplarını yönetebilir.
 
 ## 🚀 Özellikler
 
@@ -9,3 +9,10 @@
 - 🔍 Başlığa Göre Kitap Arama
 - 📄 Sayfalama (pagination) desteği
 - 🧑‍💻 Sadece giriş yapan kullanıcıya özel veriler
+
+## 🛠️ Kullanılan Teknolojiler
+- **Spring Boot**
+- **Spring Data JPA**
+- **Spring Security**
+- **H2 / PostgreSQL**
+- **Postman**
