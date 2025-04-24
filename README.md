@@ -72,7 +72,7 @@
 
 | ➕➕  | ÇOKLU KİTAP EKLEME  |
 | ------------ | ------------ |
-| BOOK DELETE  | Fotoğrafdaki yöntemi izleyerek birden fazla kitaplarınızı aynı anda ekleyebilirsiniz ! |
+| ALL BOOK SAVE| Fotoğrafdaki yöntemi izleyerek birden fazla kitaplarınızı aynı anda ekleyebilirsiniz ! |
 <p>
 <img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/toplukay%C4%B1r.png" width="600"/>
 </p>
