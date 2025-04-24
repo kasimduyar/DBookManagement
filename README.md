@@ -23,16 +23,59 @@
 
 | ⚠️ | KAYITSIZ GİRİŞ HATASI  |
 | ------------ | ------------ |
-| HATA  | Giriş yapılmadan kitap eklenilicek olursa uygulamanın vericeği hata  |
+| HATA  | Giriş yapılmadan kitap eklenilicek olursa uygulamanın vericeği hata !  |
 <p>
 <img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/G%C4%B0R%C4%B0%C5%9EHATA.png" width="600"/>
 </p>
 
+| ✍️ | KAYIT OLMAK  |
+| ------------ | ------------ |
+|  (REGİSTER)  | Aşdağıdaki fotoğrafdaki gibi kayıt olunması gerek !  |
+<p>
+<img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/kay%C4%B1tol.png" width="600"/>
+</p>
 
 | 🔑  | GİRİŞ YAPMAK  |
 | ------------ | ------------ |
-| GİRİŞ (LOGİN)  | Aşağıdaki fotoğrafdaki gibi giriş yapılmalıdır  |
+|     (LOGİN)  | Kayıt olduktan sonra aşağıdaki fotoğrafdaki gibi giriş yapılmalıdır ! |
 <p>
 <img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/G%C4%B0R%C4%B0%C5%9EYAP.png" width="600"/>
 </p>
+
+| ➕  | KİTAP KAYDETMEK  |
+| ------------ | ------------ |
+| BOOK SAVE    | Fotoğrafdaki yöntemi izleyerek istediğiniz kitabı kayıt edebilirsiniz ! |
+<p>
+<img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/kitapkaydet.png" width="600"/>
+</p>
+
+| 📋  | KİTAPLARI LİSTELEMEK  |
+| ------------ | ------------ |
+| BOOK LİST    | Fotoğrafdaki yöntemi izleyerek kayıt olmuş tüm kitapları listeleyebilirsiniz ! |
+<p>
+<img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/listelemeyap.png" width="600"/>
+</p>
+
+| 🔍  | KİTAP ARAMAK  |
+| ------------ | ------------ |
+| BOOK SEARCH  | Fotoğrafdaki yöntemi izleyerek istediğiniz kitabı arayabilirsiniz ! |
+<p>
+<img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/AraYap.png" width="600"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
