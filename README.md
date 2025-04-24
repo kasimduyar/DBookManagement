@@ -24,6 +24,9 @@
 |  | KAYITSIZ GİRİŞ HATASI  |
 | ------------ | ------------ |
 | HATA  | Giriş yapılmadan kitap eklenilicek olursa uygulamanın vericeği hata  |
+<p>
+<img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/G%C4%B0R%C4%B0%C5%9EHATA.png" width="600"/>
+</p>
 
 
 | 1.ADIM  | GİRİŞ YAPMAK  |
