@@ -29,7 +29,10 @@
 </p>
 
 
-| 1.ADIM  | GİRİŞ YAPMAK  |
+| 🔑  | GİRİŞ YAPMAK  |
 | ------------ | ------------ |
-| GİRİŞ (LOGİN)  |   |
+| GİRİŞ (LOGİN)  | Aşağıdaki fotoğrafdaki gibi giriş yapılmalıdır  |
+<p>
+<img src="https://github.com/kasimduyar/DBookManagement/blob/master/%C4%B0mages/G%C4%B0R%C4%B0%C5%9EYAP.png" width="600"/>
+</p>
 
