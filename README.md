@@ -21,7 +21,7 @@
 
 - ## 🔧 KULLANIM
 
-|  | KAYITSIZ GİRİŞ HATASI  |
+| ⚠️ | KAYITSIZ GİRİŞ HATASI  |
 | ------------ | ------------ |
 | HATA  | Giriş yapılmadan kitap eklenilicek olursa uygulamanın vericeği hata  |
 <p>
