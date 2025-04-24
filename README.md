@@ -5,14 +5,15 @@
 ## 🚀 Özellikler
 
 - 🔐 Kullanıcı Kayıt ve Giriş Sistemi (Session tabanlı)
-- 📘 Kitap Ekleme, Güncelleme, Silme
+- 📘 Kitap Ekleme, Silme
 - 🔍 Başlığa Göre Kitap Arama
 - 📄 Sayfalama (pagination) desteği
 - 🧑‍💻 Sadece giriş yapan kullanıcıya özel veriler
 
 ## 🛠️ Kullanılan Teknolojiler
 - **Spring Boot**
-- **Spring Data JPA**
-- **Spring Security**
-- **H2 / PostgreSQL**
+- **Spring Data JPA (H2 veritabanı ile)**
+- **Security (Session Tabanlı)**
+- **Validaitons**
+- **Maven**
 - **Postman**
