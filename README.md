@@ -21,6 +21,6 @@
 
 - ## 🔧 KULLANIM
 
-   | GİRİŞSİZ KAYIT HATASI  |
+|  | GİRİŞSİZ KAYIT HATASI  |
 | ------------ | ------------ |
 | HATA  | Giriş yapılmadan kitap eklenilicek olursa uygulamanın vericeği hata  |
