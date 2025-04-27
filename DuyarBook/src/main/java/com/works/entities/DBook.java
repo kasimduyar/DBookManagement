@@ -16,6 +16,8 @@ public class DBook {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long bid;
 
+    private Long cid;
+
     @Size(min = 2, max = 50)
     @NotEmpty
     @NotNull

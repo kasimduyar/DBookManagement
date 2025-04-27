@@ -1,6 +1,7 @@
 package com.works.restcontrollers;
 
 
+import com.works.entities.Customer;
 import com.works.entities.DBook;
 import com.works.repositories.DBookRepository;
 import com.works.service.DBookService;
@@ -46,31 +47,20 @@ public class DBookRestcontroller {
         return dbookService.getBooks(page, size);
     }
 
+
    @DeleteMapping("bdelete/{bid}")
     public ResponseEntity delete(@PathVariable Long bid) {
         return dbookService.deleteProduct(bid);
     }
 
 
-    /*@DeleteMapping("/delete/{bid}")
-    public ResponseEntity<?> deleteBook(@PathVariable Long bid) {
-        Customer currentUser = authUtil.getCurrentUser();
-        DBook book = dbookRepository.findById(bid).orElseThrow(() -> new RuntimeException("Kitap bulunamadı"));
 
-        if (!book.getOwner().getCid().equals(currentUser.getCid())) {
-            return ResponseEntity.status(403).body("Bu kitabı silmeye yetkiniz yok.");
-        }
-
-        dbookRepository.delete(book);
-        return ResponseEntity.ok("Kitap silindi");
-    }
-    */
 
     @GetMapping("booksearch")
     public Page<DBook> searchBooks(
             @RequestParam String title,
             @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "5") int size
+            @RequestParam(defaultValue = "20") int size
     ) {
         return dbookService.searchBooksByTitle(title, PageRequest.of(page, size));
     }
